@@ -65,25 +65,25 @@ This Admin Dashboard supports the following features:
 - **Debounce**: For efficient handling of input events like search or form submissions.
 
           src/
-├── components/
-│   ├── forms/              # Login and add-user forms
-│   ├── CreatorNav/         # Navigation bar for creators
-│   ├── Shimmer/            # Loading effect component
-│   ├── UserNav/            # Navigation bar for users
-├── context/
-│   ├── AuthContext/        # Handles login and authentication logic
-│   ├── BlogContext/        # Manages posts and related actions
-├── pages/
-│   ├── Dashboard/          # Admin dashboard for managing users and roles
-│   ├── Following/          # Page for users to follow/unfollow creators
-│   ├── PastBlogs/          # Page for creators to view their past posts
-│   ├── UnAuthorized/       # Page shown when access is denied
-│   ├── UserDashboard/      # User dashboard for viewing posts
-│   ├── Write/              # Page for creators to write posts
-├── utils/
-│   ├── reducer.js          # Functions for managing global state
-├── App.jsx                 # Main application routes
-├── protectedRoute.jsx      # Logic for role-based protected routes
+          ├── components/
+          │   ├── forms/              # Login and add-user forms
+          │   ├── CreatorNav/         # Navigation bar for creators
+          │   ├── Shimmer/            # Loading effect component
+          │   ├── UserNav/            # Navigation bar for users
+          ├── context/
+          │   ├── AuthContext/        # Handles login and authentication logic
+          │   ├── BlogContext/        # Manages posts and related actions
+          ├── pages/
+          │   ├── Dashboard/          # Admin dashboard for managing users and roles
+          │   ├── Following/          # Page for users to follow/unfollow creators
+          │   ├── PastBlogs/          # Page for creators to view their past posts
+          │   ├── UnAuthorized/       # Page shown when access is denied
+          │   ├── UserDashboard/      # User dashboard for viewing posts
+          │   ├── Write/              # Page for creators to write posts
+          ├── utils/
+          │   ├── reducer.js          # Functions for managing global state
+          ├── App.jsx                 # Main application routes
+          ├── protectedRoute.jsx      # Logic for role-based protected routes
 
 
 
