@@ -64,6 +64,7 @@ This Admin Dashboard supports the following features:
 - **Shimmer Effect**: For skeleton loading during data fetching.
 - **Debounce**: For efficient handling of input events like search or form submissions.
 
+## Project Structure
           src/
           ├── components/
           │   ├── forms/              # Login and add-user forms
@@ -110,24 +111,24 @@ Steps to Run:
 Clone the repository:
 
 
-git clone https://github.com/amritanand53/RBAC-Assignment.git
-cd RBAC-Assignment
+          git clone https://github.com/amritanand53/RBAC-Assignment.git
+          cd RBAC-Assignment
 Install dependencies:
 
 
-npm install
+          npm install
 or
 
 
-yarn install
+          yarn install
 Start the development server:
 
 
-npm start
+          npm start
 or
 
 
-yarn start
+          yarn start
 Open the application: Visit http://localhost:3000 in your web browser.
 
 Conclusion
