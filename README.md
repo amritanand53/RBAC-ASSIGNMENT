@@ -87,8 +87,8 @@ Steps to Run:
 Clone the repository:
 
 
-git clone https://github.com/MahindraGamini/VRV-security-assignment
-cd VRV-security-assignment
+git clone https://github.com/amritanand53/RBAC-Assignment.git
+cd RBAC-Assignment
 Install dependencies:
 
 
