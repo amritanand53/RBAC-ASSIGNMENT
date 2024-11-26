@@ -64,6 +64,28 @@ This Admin Dashboard supports the following features:
 - **Shimmer Effect**: For skeleton loading during data fetching.
 - **Debounce**: For efficient handling of input events like search or form submissions.
 
+src/
+├── components/
+│   ├── forms/              # Login and add-user forms
+│   ├── CreatorNav/         # Navigation bar for creators
+│   ├── Shimmer/            # Loading effect component
+│   ├── UserNav/            # Navigation bar for users
+├── context/
+│   ├── AuthContext/        # Handles login and authentication logic
+│   ├── BlogContext/        # Manages posts and related actions
+├── pages/
+│   ├── Dashboard/          # Admin dashboard for managing users and roles
+│   ├── Following/          # Page for users to follow/unfollow creators
+│   ├── PastBlogs/          # Page for creators to view their past posts
+│   ├── UnAuthorized/       # Page shown when access is denied
+│   ├── UserDashboard/      # User dashboard for viewing posts
+│   ├── Write/              # Page for creators to write posts
+├── utils/
+│   ├── reducer.js          # Functions for managing global state
+├── App.jsx                 # Main application routes
+├── protectedRoute.jsx      # Logic for role-based protected routes
+
+
 ---
 The project uses the React Context API and a Reducer for managing data and state:
 
@@ -110,17 +132,7 @@ Open the application: Visit http://localhost:3000 in your web browser.
 Conclusion
 This project demonstrates how to implement Role-Based Access Control (RBAC) in a React application. It allows admins, creators, and users to access different features based on their roles. The application is designed for scalability, ease of use, and responsiveness, making it suitable for real-world use cases.
 
-          src/
-          ├── components/
-          │   ├── UserTable.js       # Displays user data in a table format
-          │   ├── UserForm.js        # Form for adding and editing users
-          │   ├── RoleForm.js        # Form for managing roles
-          ├── styles/
-          │   ├── tailwind.css       # Tailwind CSS configuration
-          ├── utils/
-          │   ├── localStorage.js    # Helper functions for data persistence
-          ├── App.js                 # Main application entry point
-          ├── index.js               # React application bootstrap
+
 
 
 
