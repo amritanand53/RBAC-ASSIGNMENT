@@ -110,5 +110,17 @@ Open the application: Visit http://localhost:3000 in your web browser.
 Conclusion
 This project demonstrates how to implement Role-Based Access Control (RBAC) in a React application. It allows admins, creators, and users to access different features based on their roles. The application is designed for scalability, ease of use, and responsiveness, making it suitable for real-world use cases.
 
+          src/
+          ├── components/
+          │   ├── UserTable.js       # Displays user data in a table format
+          │   ├── UserForm.js        # Form for adding and editing users
+          │   ├── RoleForm.js        # Form for managing roles
+          ├── styles/
+          │   ├── tailwind.css       # Tailwind CSS configuration
+          ├── utils/
+          │   ├── localStorage.js    # Helper functions for data persistence
+          ├── App.js                 # Main application entry point
+          ├── index.js               # React application bootstrap
+
 
 
