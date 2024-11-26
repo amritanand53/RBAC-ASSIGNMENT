@@ -64,7 +64,7 @@ This Admin Dashboard supports the following features:
 - **Shimmer Effect**: For skeleton loading during data fetching.
 - **Debounce**: For efficient handling of input events like search or form submissions.
 
-src/
+          src/
 ├── components/
 │   ├── forms/              # Login and add-user forms
 │   ├── CreatorNav/         # Navigation bar for creators
@@ -84,6 +84,7 @@ src/
 │   ├── reducer.js          # Functions for managing global state
 ├── App.jsx                 # Main application routes
 ├── protectedRoute.jsx      # Logic for role-based protected routes
+
 
 
 ---
