@@ -45,9 +45,11 @@ Tailwind CSS: For styling and responsive design.
 TinyMCE: A rich text editor for post creation.
 Shimmer Effect: For skeleton loading during data fetching.
 Debounce: For efficient handling of input events like search or form submissions.
+
 Project Structure
-bash
-Copy code
+
+
+
 src/
 ├── components/
 │   ├── forms/          # Login and add-user forms
@@ -68,6 +70,7 @@ src/
 │   ├── reducer.js      # Functions for managing global state
 ├── App.jsx             # Main application routes
 ├── protectedRoute.jsx  # Logic for role-based protected routes
+
 State Management
 The project uses the React Context API and a Reducer for managing data and state:
 
@@ -88,21 +91,19 @@ npm or yarn installed
 Steps to Run:
 Clone the repository:
 
-bash
-Copy code
+
+
 git clone https://github.com/MahindraGamini/VRV-security-assignment
 cd VRV-security-assignment
 Install dependencies:
 
-bash
-Copy code
+
 npm install
 # or
 yarn install
 Start the development server:
 
-bash
-Copy code
+
 npm start
 # or
 yarn start
